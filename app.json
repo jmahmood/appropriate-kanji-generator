@@ -1,0 +1,17 @@
+{
+  "name": "KanjiGenerator",
+  "description": "Outputs Kanji appropriate for your grade level.",
+  "scripts": {},
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+  ],
+  "keywords": ["python", "flask" ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}

@@ -53,7 +53,7 @@ def set_appropriate_kanji(text_input: str, grade: int, format_fn) -> str:
         ret += c
         i = next_index
     return ret
-#
+
 # print(furigana_html(text, 1))
 # print(basic_text(text, 2))
 # print(basic_text(text, 3))

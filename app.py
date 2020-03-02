@@ -24,16 +24,7 @@ def hello_world():
 
         ret = "<br />".join(ret.split("\n"))
         return render_template('index.html', message=ret, grade=grade, text=text, output_type=request.form.get("output_type"))
-#
-#
-# @app.route('/generate/', methods=['POST'])
-# def generate_html():
-#     grade = request.form.get("grade")
-#     text = request.form.get("document")
-#     logging.info("Received request {}".format(text))
-#     ret = furigana_html(text, int(grade))
-#     ret = "<br />".join(ret.split("\n"))
-#     return render_template('response.html', message=ret, grade=grade, text=text)
+
 
 # run the application
 if __name__ == "__main__":
